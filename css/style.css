@@ -35,34 +35,25 @@ span{
   cursor: pointer;
 }
 
-.discount.high{
-  background-color: #2dd12d;
+.discount{
   height: 20px;
   width: 35px;
   position: absolute;
   top: 0;
   right: 0;
   text-align: center;
+}
+
+.discount.high{
+  background-color: #2dd12d;
 }
 
 .discount.low{
   background-color: #c80303;
-  height: 20px;
-  width: 35px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
 }
 
 .discount.medium{
   background-color: #c4d10a;
-  height: 20px;
-  width: 35px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
 }
 
 .img{
