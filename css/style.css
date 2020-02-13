@@ -1,0 +1,44 @@
+section{
+  border: solid 2px #000;
+  background-color: #9ed0ff;
+  width: 600px;
+  height: 270px;
+  padding: 0 1px;
+}
+
+.box{
+  border: solid 2px #000;
+  background-color: #162381;
+  width: 197px;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+}
+
+.discount.high{
+  background-color: green;
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.discount.low{
+  background-color: #c80303;
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.discount.medium{
+  background-color: #c4d10a;
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
