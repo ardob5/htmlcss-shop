@@ -1,5 +1,6 @@
 main{
   background-color: #070079;
+  width: 602px;
 }
 
 section.products{
@@ -9,11 +10,6 @@ section.products{
   display: inline-block;
 }
 
-#madeby{
-  display: inline-block;
-  position: relative;
-}
-
 span{
   color: red;
   font-size: 20px;
@@ -21,11 +17,11 @@ span{
   bottom: -10px;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  display: none;
 }
 
 .box:hover span{
-  opacity: 1;
+  display: block;
 }
 
 .box{
